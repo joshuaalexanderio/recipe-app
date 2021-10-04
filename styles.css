@@ -81,3 +81,9 @@ button:focus + .dropdown-content {
 .recipe-card:hover {
   background: #ebeae4;
 }
+@media only screen and (max-width: 768px) {
+  .recipe-grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
