@@ -74,6 +74,7 @@ button {
   pointer-events: all;
   width: 100%;
   z-index: 1;
+  font-size: 1.1rem;
 }
 button:focus + .dropdown-content {
   display: block;
@@ -81,9 +82,26 @@ button:focus + .dropdown-content {
 .recipe-card:hover {
   background: #ebeae4;
 }
+@media only screen and (max-width: 992px) {
+  .recipe-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .recipe-card h1 {
+    font-size: 0.75rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   .recipe-grid-container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
+  }
+  main {
+    padding: 10px;
+  }
+  .recipe-card h1 {
+    font-size: 1.8rem;
   }
 }
