@@ -21,17 +21,18 @@ main {
   height: 300px;
   text-align: center;
 }
-.recipe-card h1 {
-  height: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
 .recipe-card a {
   text-decoration: none;
   color: black;
   cursor: pointer;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recipe-card span {
+  font-size: 3rem;
 }
 .recipe-card h1 a:hover {
   cursor: poiner;
@@ -78,6 +79,9 @@ button {
 }
 button:focus + .dropdown-content {
   display: block;
+}
+button:hover {
+  cursor: pointer;
 }
 .recipe-card:hover {
   background: #ebeae4;
