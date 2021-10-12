@@ -1,0 +1,21 @@
+[{'id': 2162451561,
+ 'color': 48, 
+ 'name': 'Inbox',
+  'comment_count': 0,
+   'shared': False, 
+   'favorite': False, 
+   'sync_id': 0, 
+   'inbox_project': True, 
+'url': 'https://todoist.com/showProject?id=2162451561'}, 
+
+
+{'id': 2162451563, 'order': 4, 
+'color': 46, 
+'name': 'Shopping', 
+'comment_count': 0, 
+'shared': False, 
+'favorite': False, 
+'sync_id': 0, 
+'url': 'https://todoist.com/showProject?id=2162451563'}, 
+{'id': 2268831204, 
+'order': 5, 'color': 47, 'name': 'Ideas', 'comment_count': 0, 'shared': False, 'favorite': False, 'sync_id': 0, 'url': 'https://todoist.com/showProject?id=2268831204'}, {'id': 2269028232, 'order': 6, 'color': 47, 'name': 'Rotating', 'comment_count': 0, 'shared': False, 'favorite': False, 'sync_id': 0, 'url': 'https://todoist.com/showProject?id=2269028232'}, {'id': 2269100944, 'order': 7, 'color': 45, 'name': 'Meals', 'comment_count': 0, 'shared': False, 'favorite': False, 'sync_id': 0, 'url': 'https://todoist.com/showProject?id=2269100944'}, {'id': 2274684726, 'order': 8, 'color': 47, 'name': 'Project Ideas', 'comment_count': 0, 'shared': False, 'favorite': False, 'sync_id': 0, 'url': 'https://todoist.com/showProject?id=2274684726'}]
