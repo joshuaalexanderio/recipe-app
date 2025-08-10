@@ -1,19 +1,37 @@
 # Recipe App
-### Simple website using CSS grid to display a list of recipes I make often with a button to add all ingredients to a todoist project.
 
-## Getting started:
-* Run "pip install flask".
-* Run "pip install bs4".
-### In "main" directory
-* In server.py, edit all instances of "Authorization" key values to "Bearer [your API token]". This can be obtained by going to https://todoist.com/app/settings/integrations>Issue a new API token>Copy to clipboard.
-* Open todoist.py and change Authorization key value to "Bearer [your API token]".
-* Run "python todoist.py" to obtain project_id for your todoist projects.
-* In server.py, edit all instances of "project_id" keys to contain the project ID for the todoist list you would like to import ingredients to.
-* Run "python server.py" to host site on localhost:5000.
+A Flask web application that displays recipe cards using CSS Grid and integrates with Todoist to automatically add ingredients to your shopping list.
 
+## Features
+- **Recipe Grid Display:** Clean layout showcasing frequently used recipes
+- **One-Click Shopping Lists:** Export all recipe ingredients directly to Todoist
+- **Todoist Integration:** Seamlessly adds ingredients to your designated project
+- **Responsive Design:** CSS Grid layout adapts to different screen sizes
 
+## Tech Stack
+- **Backend:** Flask (Python)
+- **Frontend:** HTML, CSS Grid, JavaScript
+- **API Integration:** Todoist REST API
+- **Web Scraping:** BeautifulSoup4
 
-## TO-DO:
+## Getting Started
 
-* Add feature: add/remove recipe cards with custom titles
-* Add feature: add/remove ingredients
+### Prerequisites
+- Python 3.x
+- Todoist account
+- Todoist API token ([Get one here](https://todoist.com/app/settings/integrations)
+
+### Installation
+1. Clone the repository and navigate to the main directory
+2. Install dependencies:
+   pip install flask bs4
+
+### Configuration
+
+Update the Authorization token in todoist.py
+Run python todoist.py to see your available projects
+Copy the project_id for your desired shopping list
+
+Update server configuration:
+In server.py, replace all "Authorization" values with Bearer [your_token]
+Replace all "project_id" values with your chosen project ID
